@@ -14,6 +14,7 @@
   
   body {
     min-width: 320px;
+    background: #EAEAEA;
   }
   
   .container {
@@ -23,3 +24,15 @@
     padding: 0 15px;
     margin: 0 auto;
   }
+
+
+  .title{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #838383;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  

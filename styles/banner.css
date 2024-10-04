@@ -1,0 +1,52 @@
+.banner{
+    margin-bottom: 44px;
+}
+
+
+.banner__wrap{
+    background: #000;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.banner__title{
+    font-size: clamp(1.25rem, 1.006rem + 1.22vw, 1.875rem);
+    font-weight: 600;
+    line-height: 36.57px;
+    text-align: center;
+    color: #fff;
+    max-width: 343px;
+    width: 100%;
+}
+
+.banner__img img{
+    position: absolute;
+    max-width: 321px;
+    width: 100%;
+}
+
+
+.banner__img{
+    position: relative;
+    left: -10%;
+    max-width: 320px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 970px){
+    .banner__img img img{
+        width: 100%;
+    }
+    .banner__img{
+        left: 0;
+    }
+    .banner__wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+}   

@@ -35,4 +35,12 @@
     text-transform: uppercase;
   }
 
+
+  .service__title{
+    font-size: clamp(0.938rem, 0.889rem + 0.24vw, 1.063rem);
+    font-weight: 600;
+    color: #1C1C27;
+    padding: 15px 0 15px 0;
+  }
+
   
